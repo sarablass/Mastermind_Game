@@ -1,0 +1,7 @@
+body{
+    background-image: url(../images/building.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    overflow-x: hidden;
+}

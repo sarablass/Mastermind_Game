@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>בול פגיעה</title>
+    <link rel="stylesheet" href="../css/game.css">
+
+</head>
+
+<body>
+    <main>
+        <div id="colors">
+            <button class="button-color" id="red"></button>
+            <button class="button-color" id="orange"></button>
+            <button class="button-color" id="yellow"></button>
+            <button class="button-color" id="green"></button>
+            <button class="button-color" id="blue"></button>
+            <button class="button-color" id="purple"></button>
+            <button class="button-color" id="pink"></button>
+        </div>
+        <div id="board">
+
+            <div id="circles">
+                
+            </div>
+        </div>
+        <div id="options">
+            <a href="./homePage.html"><button id="home-page" class="singleOption">דף הבית</button></a>
+            <button id="instructions" class="singleOption">הוראות</button>
+            <button id="new-game" class="singleOption">משחק חדש</button>
+        </div>
+
+    </main>
+    <div id="message">
+        <div id="choose-level">
+            <p>בחר רמת קושי</p>
+            <div id="level-buttons">
+                <button id="easy">קל</button>
+                <button id="medium">בינוני</button>
+                <button id="hard">קשה</button>
+            </div>
+        </div>
+
+       <div id="game-instructions">
+            <img src="../images/close.png" id="exit-button">
+            <h1 id="title-instructions">הוראות משחק:</h1>
+            <p>עליכם לגלות את הסיסמה שמורכבת מצבעים. <br>
+
+                לפני המשחק אתם יכולים לבחור את רמת קושי המשחק שהוא קל, בינוני או קשה, לפי רמת הקושי כך מספר הניסיונות
+               האפשריים למציאת הקוד אם בחרת רמת קושי קל ינתנו לך יותר פעמים לנחש.  <br>
+                בתחילת המשחק המחשב בוחר סיסמה שאותה עליכם לגלות. <br>
+
+                התחילו לנחש את הסיסמה שנבחרה: בכל פעם לחצו על המקום ואחר כך על הצבע שבו תרצו לצבוע אותו. אחרי שסיימתם
+                לחצו על 'בדיקה'. <br>
+
+                בול (צבע נכון במקום הנכון). <br>
+                פגיעה (צבע נכון אבל לא במקום הנכון). <br>
+
+              <span> בהצלחה!</span> </p>
+        </div>
+
+        <div id="wining" class="end-game">
+            <h1 class="paragraph">ניצחת!!!!!!🤩</h1><br>
+            <p id="score" class="paragraph"></p>
+            <div id="end-buttons">
+                <button id="play-again1" class="end-button">שחק שוב</button>
+                <button id="close1" class="end-button">חזור לדף הבית</button>
+            </div>
+        </div>
+
+        <div id="losing" class="end-game">
+            <h1 class="paragraph">הפסדת!!!!!☹</h1><br>
+            <p id="looser" class="paragraph">עברת את סף הנסיונות, נסה שוב בפעם הבאה.</p>
+            <div id="end-buttons">
+                <button id="play-again2" class="end-button">שחק שוב</button>
+                <button id="close2" class="end-button">חזור לדף הבית</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/game.js"></script>
+
+
+</body>
+
+</html>

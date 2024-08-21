@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>בול פגיעה - דף הבית</title>
+    <link rel="stylesheet" href="../css/homePage.css">
+</head>
+
+<body>
+    <button id="button-login">התחבר</button>
+    <p id="hi"></p>
+
+    <div id="games">
+        <div id="bool-game" class="border-image">
+            <img class="picture-game" src="../images/bool-game.png"><br>
+            <span class="text-game">בול פגיעה</span>
+        </div>
+        <div class="border-image additional">
+            <img class="picture-game" src="../images/mario.jpg"><br>
+            <span class="text-game">סופר מריו</span>
+        </div>
+
+        <div class="border-image additional">
+            <img class="picture-game" src="../images/candy-crush.jpg"><br>
+            <span class="text-game">קנדי קראש</span>
+        </div>
+        <div class="border-image additional">
+            <img class="picture-game" src="../images/snakes-and-laders.jpg"><br>
+            <span class="text-game">סולמות וחבלים</span>
+        </div>
+    </div>
+
+    <form id="login" class="enter">
+        <h1>התחבר</h1>
+
+        <label for="username-login">שם משתמש</label>
+        <input type="text" id="username-login">
+
+        <label for="password-login">סיסמא</label>
+        <input type="password" id="password-login">
+
+        <label for="email-login">מייל</label>
+        <input type="email" id="email-login">
+
+        <button id="button-enter">הכנס</button>
+        <p>עדיין לא הצטרפת אלינו? <a id="link-sign-up" href="#sign-up">הרשם כאן</a></p>
+    </form>
+
+    <form id="sign-up" class="enter">
+        <h1>הרשם</h1>
+
+        <label for="username-sign-up">שם משתמש</label>
+        <input type="text" id="username-sign-up">
+
+        <label for="password-sign-up">סיסמא</label>
+        <input type="password" id="password-sign-up">
+
+        <label for="ensure-password-sign-up">אימות סיסמא</label>
+        <input type="password" id="ensure-password-sign-up">
+
+        <label for="email-sign-up">מייל</label>
+        <input type="email" id="email-sign-up">
+
+        <button id="button-save">שמור</button>
+        <p>יש לך כבר חשבון אצלינו? <a id="link-login" href="#login">התחבר</a></p>
+    </form>
+
+
+
+    <script src="../js/homePage.js"></script>
+</body>
+
+</html>
